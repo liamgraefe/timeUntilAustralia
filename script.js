@@ -18,5 +18,6 @@ function updateTimer() {
     }
 }
 
+updateTimer();
 // Update alle 1 Sekunde
 setInterval(updateTimer, 1000);
