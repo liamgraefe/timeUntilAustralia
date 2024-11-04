@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Australia Timer</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: rgb(75, 73, 73);
-        }
-        h1 {
-            color: white;
-        }
-        #timer { 
-            font-size: 3em; color: #ff0000c4;             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 70vh;
-        }
-    </style>
-</head>
-<body>
-    <h1>Time Until Australia :)</h1>
-    <div id="timer">00 Tage <br> 00 Stunden <br> 00 Minuten <br> 00 Sekunden</div>
+  </head>
+  <body>
+      <h1>Time Until Australia :)</h1>
+      <div class="timer">
+          <img src="IMG_1119.JPG" alt="">
+        <div class="time-section years">
+          <span id="years" class="number">00</span><span class="unit">YRS</span>
+        </div>
+        <div class="time-section days">
+          <span id="days" class="number">00</span><span class="unit">DAYS</span>
+        </div>
+        <div class="time-section hours">
+          <span id="hours" class="number">00</span><span class="unit">HRS</span>
+        </div>
+        <div class="time-section minutes">
+          <span id="minutes" class="number">00</span
+          ><span class="unit">MIN</span>
+        </div>
+        <div class="time-section seconds">
+          <span id="seconds" class="number">00</span
+          ><span class="unit">SEC</span>
+        </div>
+      </div>
+
     <script src="script.js" defer></script>
-</body>
+  </body>
 </html>
