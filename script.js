@@ -12,7 +12,7 @@ function updateTimer() {
         const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
         document.getElementById("timer").innerText = 
-            `${days} Tage ${hours} Stunden ${minutes} Minuten ${seconds} Sekunden`;
+            `${days} Tage \n ${hours} Stunden \n ${minutes} Minuten \n ${seconds} Sekunden`;
     } else {
         document.getElementById("timer").innerText = "Countdown beendet!";
     }
